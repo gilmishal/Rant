@@ -6,10 +6,7 @@ target 'Rant' do
   use_frameworks!
 
   # Pods for Rant
-
-  pod 'Swinject'
-  pod 'SwinjectStoryboard'
-  pod 'SwinjectAutoregistration'
+  pod 'Firebase/Auth'
 
   target 'RantTests' do
     inherit! :search_paths

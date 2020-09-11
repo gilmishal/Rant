@@ -1,26 +1,42 @@
 PODS:
-  - Swinject (2.5.0)
-  - SwinjectAutoregistration (2.5.1):
-    - Swinject (~> 2.5)
-  - SwinjectStoryboard (2.1.0):
-    - Swinject (~> 2.5)
+  - Firebase/Auth (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.5)
+  - Firebase/CoreOnly (5.13.0):
+    - FirebaseCore (= 5.1.8)
+  - FirebaseAuth (5.0.5):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.8):
+    - GoogleUtilities/Logger (~> 5.2)
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.2.1)
 
 DEPENDENCIES:
-  - Swinject
-  - SwinjectAutoregistration
-  - SwinjectStoryboard
+  - Firebase/Auth
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Swinject
-    - SwinjectAutoregistration
-    - SwinjectStoryboard
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - GoogleUtilities
+    - GTMSessionFetcher
 
 SPEC CHECKSUMS:
-  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
-  SwinjectAutoregistration: f72bf894cbd2ee4a9153e00fa5208e93fb44d283
-  SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
+  Firebase: 6df9a6114bc9f106a98fe83d5438d4d9833c2019
+  FirebaseAuth: 9299ab178271bec7426967b05b2718bb6fc31f17
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: fba2bfaa691c49028309b92e4dd37cc4b5512fbe
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
 
-PODFILE CHECKSUM: 9c7c58ef0bbf7140b2d7bd24b9a8ab477b040a8e
+PODFILE CHECKSUM: 9e3d6a7e3fd57df13a9bddc51362d25623e1178e
 
 COCOAPODS: 1.5.3

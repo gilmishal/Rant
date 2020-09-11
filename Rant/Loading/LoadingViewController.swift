@@ -7,38 +7,22 @@
 //
 
 import UIKit
-import SwinjectStoryboard
+import Firebase
 
 class LoadingViewController : UIViewController {
     
-    let authenticationService: AuthenticationService!
-    
-    init(authenticationService: AuthenticationService!){
-        self.authenticationService=authenticationService;
-        super.init(nibName: "LoadingViewController", bundle: nil)
-    }
-    
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) is not supported")
+        super.init(coder: aDecoder)
     }
     
     //MARK: App life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-            if authenticationService.isUserLoggedIn() {
-            } else {
-                moveToLogin()
-            }
+        if Auth.auth().currentUser == nil {
+            performSegue(withIdentifier: "gotoLogin", sender: self)
+        } else {
+            performSegue(withIdentifier: "gotoMain", sender: self)
         }
-    
-    func moveToLogin(){
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginNavigationContoller") as! UINavigationController
-        loginVC.modalPresentationStyle = .custom
-        loginVC.modalTransitionStyle = .crossDissolve
-        
-        self.present(loginVC, animated: true, completion: nil)
     }
-    
 }

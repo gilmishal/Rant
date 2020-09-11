@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2741B2659BACC3F2B3C957D5 /* Pods_RantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404DCEBFD8726BB3ABFEBAAE /* Pods_RantTests.framework */; };
 		37458538F7E81D7E94BA39D5 /* Pods_Rant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB6F377307EAEE533C8FF44 /* Pods_Rant.framework */; };
+		4318113F250570B60057BB0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318113E250570B60057BB0B /* LoginViewController.swift */; };
+		43181141250572810057BB0B /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43181140250572810057BB0B /* RegistrationViewController.swift */; };
+		43181143250577560057BB0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43181142250577550057BB0B /* GoogleService-Info.plist */; };
 		4320309E23CDD31200104EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4320309D23CDD31200104EA1 /* AppDelegate.swift */; };
 		432030A323CDD31200104EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432030A123CDD31200104EA1 /* Main.storyboard */; };
 		432030A523CDD31400104EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432030A423CDD31400104EA1 /* Assets.xcassets */; };
@@ -16,8 +19,6 @@
 		432030BE23CDD31400104EA1 /* RantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432030BD23CDD31400104EA1 /* RantUITests.swift */; };
 		432030CE23CDED5C00104EA1 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432030CD23CDED5C00104EA1 /* FeedTableViewCell.swift */; };
 		432030D623CDF64000104EA1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432030D523CDF64000104EA1 /* LoadingViewController.swift */; };
-		432030D923CDF86B00104EA1 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432030D823CDF86B00104EA1 /* AuthenticationService.swift */; };
-		43C05A3D23CDFF1D00444D6C /* SwinjectBoard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C05A3C23CDFF1D00444D6C /* SwinjectBoard+Setup.swift */; };
 		51B81FA9B6ADC1482A1717E3 /* Pods_RantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7936BCC5CC96A26C153013A /* Pods_RantUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,9 @@
 		248BE6C2ED8F8B2E2FB34A43 /* Pods-RantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RantUITests/Pods-RantUITests.release.xcconfig"; sourceTree = "<group>"; };
 		32CD8C7DB947CE5093239EF8 /* Pods-RantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RantTests/Pods-RantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		404DCEBFD8726BB3ABFEBAAE /* Pods_RantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4318113E250570B60057BB0B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43181140250572810057BB0B /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		43181142250577550057BB0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4320309A23CDD31200104EA1 /* Rant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4320309D23CDD31200104EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		432030A223CDD31200104EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,8 +60,6 @@
 		432030BF23CDD31400104EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432030CD23CDED5C00104EA1 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		432030D523CDF64000104EA1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
-		432030D823CDF86B00104EA1 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
-		43C05A3C23CDFF1D00444D6C /* SwinjectBoard+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwinjectBoard+Setup.swift"; sourceTree = "<group>"; };
 		4A582FFA8149924AB45B5EA6 /* Pods-RantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RantTests/Pods-RantTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADE7E6FC531E9DE6CDBEF36D /* Pods-RantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RantUITests/Pods-RantUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7936BCC5CC96A26C153013A /* Pods_RantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +143,6 @@
 		4320309C23CDD31200104EA1 /* Rant */ = {
 			isa = PBXGroup;
 			children = (
-				432030D723CDF7CF00104EA1 /* Utilities */,
 				432030D123CDF28300104EA1 /* Feed */,
 				432030D023CDF26C00104EA1 /* Authentication */,
 				432030CF23CDF24F00104EA1 /* Loading */,
@@ -149,7 +150,7 @@
 				432030A123CDD31200104EA1 /* Main.storyboard */,
 				432030A423CDD31400104EA1 /* Assets.xcassets */,
 				432030A923CDD31400104EA1 /* Info.plist */,
-				43C05A3C23CDFF1D00444D6C /* SwinjectBoard+Setup.swift */,
+				43181142250577550057BB0B /* GoogleService-Info.plist */,
 			);
 			path = Rant;
 			sourceTree = "<group>";
@@ -200,6 +201,7 @@
 		432030D223CDF29200104EA1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				4318113E250570B60057BB0B /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 		432030D323CDF29D00104EA1 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
+				43181140250572810057BB0B /* RegistrationViewController.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -217,14 +220,6 @@
 				432030CD23CDED5C00104EA1 /* FeedTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		432030D723CDF7CF00104EA1 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				432030D823CDF86B00104EA1 /* AuthenticationService.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +332,7 @@
 			files = (
 				432030A523CDD31400104EA1 /* Assets.xcassets in Resources */,
 				432030A323CDD31200104EA1 /* Main.storyboard in Resources */,
+				43181143250577560057BB0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,17 +406,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Rant/Pods-Rant-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
-				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
-				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,11 +450,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C05A3D23CDFF1D00444D6C /* SwinjectBoard+Setup.swift in Sources */,
+				4318113F250570B60057BB0B /* LoginViewController.swift in Sources */,
 				4320309E23CDD31200104EA1 /* AppDelegate.swift in Sources */,
 				432030CE23CDED5C00104EA1 /* FeedTableViewCell.swift in Sources */,
+				43181141250572810057BB0B /* RegistrationViewController.swift in Sources */,
 				432030D623CDF64000104EA1 /* LoadingViewController.swift in Sources */,
-				432030D923CDF86B00104EA1 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
