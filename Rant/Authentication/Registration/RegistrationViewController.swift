@@ -25,7 +25,7 @@ class RegistrationViewController: UIViewController {
                     uialert.addAction(UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: nil))
                     self.present(uialert, animated: true, completion: nil)
             } else {
-                
+                performSegue(withIdentifier: "gotoMain", sender: self)
             }
         }
     }

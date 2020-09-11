@@ -183,7 +183,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8l6-oN-7pR">
-                                <rect key="frame" x="0.0" y="32" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="76" width="375" height="515"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ew6-0l-8c7">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -300,7 +300,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24H-4e-5Ef">
-                                <rect key="frame" x="0.0" y="32" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="76" width="375" height="515"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ha-h6-jIZ">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -743,7 +743,7 @@
                                                                 <state key="normal" title="register"/>
                                                                 <connections>
                                                                     <action selector="onClick:" destination="zPz-Dv-bZ7" eventType="touchUpInside" id="Dgv-Ms-8JS"/>
-                                                                    <segue destination="WEF-uO-5ef" kind="presentation" id="tZg-jn-bnd"/>
+                                                                    <segue destination="WEF-uO-5ef" kind="presentation" identifier="gotoMain" id="tZg-jn-bnd"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -1052,7 +1052,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="Ke5-Mk-VI6"/>
         <segue reference="Ufe-6j-45R"/>
-        <segue reference="GZX-FL-G3g"/>
+        <segue reference="fZ7-sv-BZc"/>
         <segue reference="w1T-fe-VJl"/>
     </inferredMetricsTieBreakers>
 </document>
